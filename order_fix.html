@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="icon" href="./img/logo.png" type="image/icon type" />
+    <title>Detail Order</title>
+  </head>
+  <body class="grey-100">
+    <!-- Header -->
+    <div
+      class="box-title white row horizontal-align-left vertical-align-center"
+    >
+      <div class="col-10" style="margin-right: 10px" onclick="routes('success_order')">
+        <img src="./icons/ic_arrow_back.png" width="20" alt="icon-back" />
+      </div>
+      <div class="col-75">
+        <h1>Bayar</h1>
+        <p>Rincian pesanan anda</p>
+      </div>
+    </div>
+    <!-- ./Header -->
+    </br>
+    </br>
+    
+    <!-- Order Item -->
+    <div class="white" style="padding: 16px 24px;">
+      <h1 style="font-size: 14px;color: #020202;">Daftar Pesanan</h1>
+      <!-- Makanan -->
+      <div class="row-between vertical-align-center">
+        <img src="./img/item_1.png" class="radius" style="margin-top: 12px; width: 60px; height: 60px;"/>
+        <div style="flex: 1;margin-left: 12px;padding-top: 10px;">
+          <h1 style="font-size: 14px;color: #020202;">Cherry Healthy</h1>
+          <span style="color:#8D92A3;font-size:13px">IDR 289.000</span>
+        </div>
+        <span style="color:#8D92A3;font-size:13px">
+          14 Item
+        </span>
+      </div>
+      <!-- ./Makanan -->
+
+      <!-- Detail Transaksi -->
+      <h1 style="font-size: 14px;color: #020202;margin-top: 16px;">Detail Transaksi</h1>
+      <div class="row-between">
+        <p style="color:#8D92A3">Cherry Healthy</p>
+        <p style="color:#020202">IDR 150.000</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">Driver</p>
+        <p style="color:#020202">IDR 50.000</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">Diskon 10%</p>
+        <p style="color:#020202">IDR 140.000</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">Diskon 10%</p>
+        <p style="color:#1ABC9C">IDR 160.000</p>
+      </div>
+      <!-- ./Detail Transaksi -->
+    </div>
+    <!-- ./Order Item -->
+    </br>
+    </br>
+
+    <!-- Order Item -->
+    <div class="white" style="padding: 16px 24px;">
+      <h1 style="font-size: 14px;color: #020202;">Kirim ke</h1>
+      <!-- Detail Order -->
+      <div class="row-between">
+        <p style="color:#8D92A3">Nama</p>
+        <p style="color:#020202">Lorem Ipsum</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">No Handphone</p>
+        <p style="color:#020202">0822 0819 9688</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">Alamat</p>
+        <p style="color:#020202">Setra Duta Palima</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">No Rumah</p>
+        <p style="color:#020202">A5 Hook</p>
+      </div>
+      <div class="row-between">
+        <p style="color:#8D92A3">Kota</p>
+        <p style="color:#020202">Bandung</p>
+      </div>
+      <!-- ./Detail Order -->
+    </div>
+    <!-- ./Order Item -->
+
+    <!-- Button -->
+    <div class="footer">
+      <div style="padding: 0 24px;">
+        <button style="width: 100%; background-color: #D9435E;border-radius: 8px;color: #FFFFFF;font-weight: 700;padding: 3px 0;font-size: 13px;" onclick="routes('home')">Batalkan Pesanan</button>
+      </div>
+    </div>
+    <!-- ./Button -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/fileku.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

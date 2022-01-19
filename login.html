@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="icon" href="./img/logo.png" type="image/icon type" />
+    <title>Login</title>
+  </head>
+  <body class="home white">
+    <div class="box-title">
+      <h1>Masuk</h1>
+      <p>Temukan makanan terbaik Anda</p>
+    </div>
+    <div class="list">
+      <div class="item label-float">
+        <label>Email</label>
+        <input type="text" class="textfield" />
+      </div>
+      <div class="item label-float">
+        <label>Kata Sandi</label>
+        <input type="password" class="textfield" />
+      </div>
+      <div class="item">
+        <button
+          class="radius full btn-submit btn-active"
+          style="margin-bottom: 12px; margin-top: 24px"
+          onclick="routes('home')"
+        >
+          Masuk
+        </button>
+        <button
+          class="radius full btn-submit btn-inactive"
+          onclick="routes('register')"
+        >
+          Buat akun baru
+        </button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/fileku.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

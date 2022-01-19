@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="icon" href="./img/logo.png" type="image/icon type" />
+    <title>Register</title>
+  </head>
+  <body class="white">
+    <div class="box-title row horizontal-align-left vertical-align-center">
+      <div
+        class="col-10"
+        style="margin-right: 10px"
+        onclick="routes('register')"
+      >
+        <img src="./icons/ic_arrow_back.png" width="20" alt="icon-back" />
+      </div>
+      <div class="col-75">
+        <h1>Alamat</h1>
+        <p>Pastikan isikan alamat benar</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="item label-float">
+        <label>No Telepon</label>
+        <input type="text" class="textfield" />
+      </div>
+      <div class="item label-float">
+        <label>Alamat</label>
+        <input type="text" class="textfield" />
+      </div>
+      <div class="item label-float">
+        <label>No Rumah</label>
+        <input type="text" class="textfield" />
+      </div>
+      <div class="item label-float">
+        <label>Kota</label>
+        <input type="text" class="textfield" />
+      </div>
+      <div class="item">
+        <button
+          class="radius full btn-submit btn-active"
+          style="margin-bottom: 12px; margin-top: 24px"
+          onclick="routes('success_register')"
+        >
+          Daftar
+        </button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/fileku.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
